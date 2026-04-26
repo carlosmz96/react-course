@@ -1,0 +1,67 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="div-app"
+  >
+    <h1
+      data-testid="first-name-title"
+    >
+      Carlos
+    </h1>
+    <h3>
+      Muñoz
+    </h3>
+    <p
+      class="mi-clase-favorita"
+    >
+      Juegos favoritos: 
+      Elden Ring, Arc Raiders, Kingdom Come Deliverance
+    </p>
+    <p>
+      4
+    </p>
+    <h1>
+      No activo
+    </h1>
+    <p
+      style="background-color: rgb(238, 238, 238); border-radius: 20px; padding: 10px; margin-top: 30px;"
+    >
+      {"zipCode":"41015","city":"Sevilla","country":"España"}
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MyAwesomeApp > should match snapshot 2`] = `
+<div
+  data-testid="div-app"
+>
+  <h1
+    data-testid="first-name-title"
+  >
+    Carlos
+  </h1>
+  <h3>
+    Muñoz
+  </h3>
+  <p
+    class="mi-clase-favorita"
+  >
+    Juegos favoritos: 
+    Elden Ring, Arc Raiders, Kingdom Come Deliverance
+  </p>
+  <p>
+    4
+  </p>
+  <h1>
+    No activo
+  </h1>
+  <p
+    style="background-color: rgb(238, 238, 238); border-radius: 20px; padding: 10px; margin-top: 30px;"
+  >
+    {"zipCode":"41015","city":"Sevilla","country":"España"}
+  </p>
+</div>
+`;
